@@ -1,0 +1,21 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.nav-button {
+  outline: none;
+  border: none;
+  height: 100px;
+  width: 200px;
+  transition: all 300ms ease-in-out;
+  background-color: transparent;
+  border-top: 2px solid white;
+}
+
+.nav-button:focus {
+  color: var(--primary);
+  border-top: 2px solid var(--primary);
+}
