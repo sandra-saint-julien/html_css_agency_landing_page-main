@@ -1,0 +1,23 @@
+#app-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 30px 20px;
+}
+
+#app-footer article {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 50px;
+}
+
+/*Phone*/
+@media screen and (max-width: 640px) {
+  #app-footer {
+    flex-direction: column;
+    align-items: start;
+  }
+}

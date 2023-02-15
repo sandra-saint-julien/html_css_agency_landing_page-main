@@ -1,3 +1,4 @@
+/* Desktop */
 #navbar {
   display: flex;
   justify-content: space-between;
@@ -5,17 +6,45 @@
   height: 100px;
 }
 
+#navbar section {
+  display: flex;
+}
+
 .nav-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   outline: none;
   border: none;
   height: 100px;
   width: 200px;
   transition: all 300ms ease-in-out;
   background-color: transparent;
-  border-top: 2px solid white;
+  border-top: 2px solid #f2f2f2;
 }
 
 .nav-button:focus {
   color: var(--primary);
   border-top: 2px solid var(--primary);
+}
+
+/* Phone */
+@media screen and (max-width: 640px) {
+  #navbar {
+    flex-direction: column;
+    margin-top: 8%;
+  }
+
+  .nav-button {
+    width: 200px;
+    height: 80px;
+    border-top: none;
+    border-bottom: 2px solid #f2f2f2;
+  }
+
+  .nav-button:focus {
+    border-top: none;
+    color: var(--primary);
+    border-bottom: 2px solid var(--primary);
+  }
 }
