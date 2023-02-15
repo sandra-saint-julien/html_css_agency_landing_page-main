@@ -4,6 +4,7 @@
   align-items: center;
   background-color: #f2f2f2;
   padding: 30px 20px;
+  margin-top: 100px;
 }
 
 #app-footer article {
@@ -16,7 +17,7 @@
 
 /*Phone*/
 @media screen and (max-width: 640px) {
-  #app-footer {
+  #app-footer article {
     flex-direction: column;
     align-items: start;
   }

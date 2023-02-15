@@ -1,0 +1,38 @@
+.activity-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 0 10px #f0f2f6;
+  border: 0.001px solid #f2f2f2;
+}
+
+.activity img {
+  width: 100%;
+  object-fit: cover;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 0.001px solid #f2f2f2;
+  flex: 1;
+}
+
+h4 {
+  margin-left: 30px;
+}
+
+/*Phone*/
+@media screen and (max-width: 640px) {
+  .activity-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
