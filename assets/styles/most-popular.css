@@ -1,48 +1,38 @@
-.highlight {
-  flex: 1;
-  margin: var(--app-spacing) 0;
-}
-
-.popular {
-  display: flex;
-  justify-content: end;
-}
-.card img {
-  margin-top: 6px;
-  margin-left: 6px;
-  margin-bottom: 6px;
-  height: 120px;
-  width: 120px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-}
-
-.most-popular-text {
-  margin-top: 30px;
-  border-radius: 20px;
-  gap: 20px;
-}
-.most-popular {
+.most-popular-container {
   display: flex;
   flex-direction: column;
-  background-color: #f2f2f2;
+  background-color: var(--surfaces);
   border-radius: 20px;
   gap: 20px;
-  padding: 25px;
+  padding: 35px;
 }
-.most-popular-title {
-  padding: 15px;
-}
-.popular-text {
+
+.most-popular-container header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.card {
+.most-popular-card {
   display: flex;
   background-color: white;
   border-radius: 20px;
+  padding: 9px;
+  gap: 20px;
+}
+
+.most-popular-card img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+.most-popular-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*Phone*/

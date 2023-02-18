@@ -2,6 +2,7 @@
   --primary: #0065fc;
   --secondary: #deebff;
   --ternary: #d9d9d9;
+  --surfaces: #f2f2f2;
   --app-spacing: 100px;
 }
 
@@ -9,6 +10,25 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0.5rem 0;
+}
+
+.fa-star,
+.fa-chart-line {
+  color: blue;
+}
+
+.start-disabled {
+  color: var(--surfaces);
 }
 
 .container {
@@ -25,6 +45,11 @@ body {
 .large-text {
   font-size: 22px;
   font-weight: 700;
+}
+
+.real-easted-ads-container {
+  flex: 1;
+  margin: var(--app-spacing) 0;
 }
 
 /*Tablet*/
