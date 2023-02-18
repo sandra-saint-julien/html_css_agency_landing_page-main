@@ -4,29 +4,24 @@
   gap: 40px;
 }
 
-.activity {
+.activity-card {
   display: flex;
   flex-direction: column;
   flex: 1;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
+  border-radius: 20px;
   box-shadow: 0 0 10px #f0f2f6;
-  border: 0.001px solid #f2f2f2;
 }
 
-.activity img {
+.activity-card img {
   width: 100%;
   object-fit: cover;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
-  border: 0.001px solid #f2f2f2;
   flex: 1;
 }
 
-h4 {
-  margin-left: 30px;
+.activity-card h3 {
+  margin: 25px 30px;
 }
 
 /*Phone*/

@@ -1,0 +1,51 @@
+.highlight {
+  flex: 1;
+}
+.popular {
+  display: flex;
+  justify-content: end;
+}
+.card img {
+  margin-top: 6px;
+  margin-left: 6px;
+  margin-bottom: 6px;
+  height: 120px;
+  width: 120px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.most-popular-text {
+  margin-top: 30px;
+  border-radius: 20px;
+  gap: 20px;
+}
+.most-popular {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  gap: 20px;
+  padding: 25px;
+}
+.most-popular-title {
+  padding: 15px;
+}
+.popular-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  border-radius: 20px;
+}
+
+/*Phone*/
+@media screen and (max-width: 640px) {
+  .most-popular {
+    border-radius: 0;
+  }
+}
