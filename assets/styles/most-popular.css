@@ -1,6 +1,8 @@
 .highlight {
   flex: 1;
+  margin: var(--app-spacing) 0;
 }
+
 .popular {
   display: flex;
   justify-content: end;
