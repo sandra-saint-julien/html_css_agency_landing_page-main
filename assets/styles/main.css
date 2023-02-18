@@ -48,8 +48,11 @@ p {
 }
 
 .real-easted-ads-container {
+  position: relative;
   flex: 1;
-  margin: var(--app-spacing) 0;
+  margin: calc(var(--app-spacing) / 2) 0;
+  display: flex;
+  gap: 30px;
 }
 
 /*Tablet*/
