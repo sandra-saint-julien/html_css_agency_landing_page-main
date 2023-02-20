@@ -10,6 +10,12 @@
   display: flex;
 }
 
+#navbar img {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
 .nav-button {
   display: flex;
   align-items: center;

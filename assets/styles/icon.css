@@ -2,14 +2,14 @@
   display: flex;
   align-items: center;
   gap: 50px;
-  margin-top: 90px;
+  margin-top: 30px;
 }
 
 .money {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 55px;
   background-color: white;
   border: 2px solid var(--surfaces);
   width: 180px;
@@ -21,7 +21,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 55px;
   background-color: white;
   border: 2px solid var(--surfaces);
   width: 120px;
@@ -33,7 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 55px;
   background-color: white;
   border: 2px solid var(--surfaces);
   width: 180px;
@@ -45,10 +45,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 20px;
+  border-radius: 55px;
   background-color: #deebff;
   border: 2px solid var(--surfaces);
   width: 230px;
   height: 55px;
-  gap: 30px;
+  gap: 25px;
 }

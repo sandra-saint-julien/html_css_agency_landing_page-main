@@ -24,7 +24,8 @@ p {
 
 .fa-star,
 .fa-chart-line,
-.fa-solid {
+.fa-solid,
+.fa-light {
   color: blue;
 }
 .fa-solid {
@@ -48,6 +49,11 @@ p {
 .large-text {
   font-size: 22px;
   font-weight: 700;
+}
+
+.normal-text {
+  font-size: 19px;
+  font-weight: 100;
 }
 
 .real-easted-ads-container {

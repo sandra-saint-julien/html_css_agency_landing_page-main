@@ -12,6 +12,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .most-popular-card {
@@ -23,8 +25,8 @@
 }
 
 .most-popular-card img {
-  height: 170px;
-  width: 180px;
+  height: 150px;
+  width: 110px;
   object-fit: cover;
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
