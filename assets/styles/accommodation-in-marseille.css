@@ -2,4 +2,33 @@
   flex: 1;
   background-color: var(--surfaces);
   border-radius: 20px;
+  padding: 35px;
+}
+
+.accommodation-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.accommodation-card {
+  position: relative;
+  background-color: white;
+  border-radius: 20px;
+  height: 250px;
+  padding: 10px;
+}
+.accommodation-card img {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+}
+
+.beginning {
+  padding: 20px;
+}
+.end {
+  padding: 20px;
 }

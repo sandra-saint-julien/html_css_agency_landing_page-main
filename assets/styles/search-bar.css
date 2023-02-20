@@ -1,0 +1,22 @@
+.button-search {
+  margin-top: 30px;
+  display: flex;
+  height: 50px;
+}
+
+.position {
+  width: 70px;
+}
+
+.button-search h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  width: 250px;
+  height: 40px;
+}
+
+.search {
+  width: 180px;
+}
