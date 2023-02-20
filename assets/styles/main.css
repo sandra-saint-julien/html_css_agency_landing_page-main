@@ -23,10 +23,13 @@ p {
 }
 
 .fa-star,
-.fa-chart-line {
+.fa-chart-line,
+.fa-solid {
   color: blue;
 }
-
+.fa-solid {
+  font-size: x-large;
+}
 .start-disabled {
   color: var(--surfaces);
 }

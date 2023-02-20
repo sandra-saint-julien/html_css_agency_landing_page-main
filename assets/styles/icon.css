@@ -1,0 +1,54 @@
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 90px;
+}
+
+.money {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid var(--surfaces);
+  width: 180px;
+  height: 55px;
+  gap: 20px;
+}
+
+.family {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid var(--surfaces);
+  width: 120px;
+  height: 55px;
+  gap: 10px;
+}
+
+.heart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid var(--surfaces);
+  width: 180px;
+  height: 55px;
+  gap: 20px;
+}
+
+.animal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #deebff;
+  border: 2px solid var(--surfaces);
+  width: 230px;
+  height: 55px;
+  gap: 30px;
+}
