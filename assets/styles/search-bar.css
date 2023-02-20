@@ -1,22 +1,31 @@
 .button-search {
   margin-top: 30px;
   display: flex;
-  height: 50px;
+  height: 65px;
 }
 
 .position {
   width: 70px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
 }
 
 .button-search h3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid;
+  border: 1px solid var(--surfaces);
   width: 250px;
-  height: 40px;
+  margin-top: initial;
+  margin-bottom: initial;
 }
 
 .search {
   width: 180px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: none;
+  background-color: var(--primary);
+  color: white;
 }
