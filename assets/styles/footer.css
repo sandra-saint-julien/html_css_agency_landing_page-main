@@ -3,22 +3,48 @@
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  padding: 30px 20px;
+  padding: 20px;
   margin-top: var(--app-spacing);
 }
 
 #app-footer article {
-  width: 100%;
+  width: 667px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  gap: 50px;
+  gap: 230px;
+}
+
+/*Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #app-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 955%;
+  }
+
+  #app-footer article {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 10px;
+  }
 }
 
 /*Phone*/
-@media screen and (max-width: 640px) {
-  #app-footer article {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #app-footer {
+    display: flex;
     flex-direction: column;
-    align-items: start;
+    justify-content: center;
+    width: 675px;
+  }
+
+  #app-footer article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
   }
 }

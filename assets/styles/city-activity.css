@@ -25,10 +25,21 @@
   margin: 25px 30px;
 }
 
-/*Phone*/
-@media screen and (max-width: 640px) {
+/*Tablet*/
+@media screen and (max-width: 1180px) /*Phone*/ @media screen and (max-width: 641px) {
   .activity-container {
     flex-direction: column;
     gap: 30px;
+    width: 600px;
+    margin-left: 10px;
+  }
+
+  .activity-card img {
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    flex: 1;
+    width: 600px;
   }
 }

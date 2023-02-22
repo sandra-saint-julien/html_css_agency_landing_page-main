@@ -65,14 +65,21 @@ p {
 }
 
 /*Tablet*/
-@media screen and (min-width: 641px) and (max-width: 1024px) {
-  .container {
-    padding: 0 40px;
+@media screen and (max-width: 1180px) {
+  body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
   }
 }
 
 /*Phone*/
 @media screen and (max-width: 640px) {
+  body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
   .container {
     padding: 0 20px;
   }

@@ -1,12 +1,29 @@
 .filter {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.choice {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 50px;
-  margin-top: 30px;
+  margin-right: 220px;
+}
+
+.display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-right: 220px;
 }
 
 .money {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 55px;
@@ -19,6 +36,7 @@
 
 .family {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 55px;
@@ -31,6 +49,7 @@
 
 .heart {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 55px;
@@ -43,6 +62,7 @@
 
 .animal {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 55px;
@@ -51,4 +71,77 @@
   width: 230px;
   height: 55px;
   gap: 25px;
+}
+
+/*Tablet*/
+@media screen and (max-width: 640px) {
+  .filter {
+    width: 640px;
+  }
+}
+/*Phone*/
+@media screen and (max-width: 640px) {
+  .filter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 640px;
+  }
+  .display {
+    display: grid;
+    grid-template-columns: 80px 80px;
+    gap: 110px;
+    padding: 10px;
+    grid-row-gap: 55px;
+    grid-template-rows: 10px;
+    justify-items: end;
+    margin-top: 55px;
+    margin-left: 10px;
+  }
+
+  .difference {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 150px;
+  }
+
+  .money {
+    padding: 12px;
+    margin: 0;
+    background: white;
+    width: 170px;
+    height: 55px;
+  }
+
+  .family {
+    padding: 12px;
+    margin: 0;
+    background: white;
+    margin: 0;
+    width: 170px;
+    height: 55px;
+  }
+
+  .heart {
+    padding: 12px;
+    margin: 0;
+    background: white;
+    margin: 0;
+    width: 170px;
+    height: 55px;
+  }
+
+  .animal {
+    padding: 12px;
+    margin: 0;
+    background: white;
+    margin: 0;
+    width: 170px;
+    height: 55px;
+  }
 }

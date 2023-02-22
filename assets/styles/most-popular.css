@@ -43,9 +43,5 @@
   padding-right: 20px;
 }
 
-/*Phone*/
-@media screen and (max-width: 640px) {
-  .most-popular {
-    border-radius: 0;
-  }
-}
+/*Tablet*/
+@media screen and (max-width: 1180px);

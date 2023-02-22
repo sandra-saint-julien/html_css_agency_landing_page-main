@@ -32,3 +32,39 @@
 .end {
   padding: 20px;
 }
+/*Tablet*/
+@media screen and (max-width: 1180px) /*Phone*/ @media screen and (max-width: 640px) {
+  .real-easted-ads-container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 0;
+  }
+
+  .accommodation-in-marseille {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--surfaces);
+    border-radius: 20px;
+    padding: 35px;
+    width: 414px;
+    margin-right: 0;
+  }
+
+  .accommodation-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .most-popular-container {
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+  }
+
+  .most .most-popular-card {
+    width: 100px;
+    height: 100px;
+  }
+}
