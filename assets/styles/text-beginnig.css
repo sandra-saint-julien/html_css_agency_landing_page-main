@@ -2,3 +2,22 @@
   padding: 30px;
   margin-top: 70px;
 }
+
+/*Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .text-beginning {
+    padding: 30px;
+    margin-top: 70px;
+    margin-left: 30px;
+  }
+}
+
+/*Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .text-beginning {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 30px;
+  }
+}
