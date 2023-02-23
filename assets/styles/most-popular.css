@@ -43,5 +43,51 @@
   padding-right: 20px;
 }
 
-/*Tablet*/
-@media screen and (max-width: 1180px);
+/*Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .most-popular-container {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: var(--surfaces);
+    border-radius: 20px;
+    gap: 20px;
+    padding: 35px;
+    width: 77%;
+  }
+
+  .most-popular-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .most-popular-card {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 30px;
+  }
+
+  .most-popular-card img {
+    height: 150px;
+    width: 110px;
+    object-fit: cover;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+  }
+
+  .most-popular-card h3 {
+    word-break: break-word;
+  }
+
+  .most-popular-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+}

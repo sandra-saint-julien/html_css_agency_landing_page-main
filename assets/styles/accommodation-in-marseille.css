@@ -1,3 +1,10 @@
+.real-easted-ads-container {
+  position: relative;
+  flex: 1;
+  margin: calc(var(--app-spacing) / 2) 0;
+  display: flex;
+  gap: 30px;
+}
 .accommodation-in-marseille {
   flex: 1;
   background-color: var(--surfaces);
@@ -29,42 +36,77 @@
 .beginning {
   padding: 20px;
 }
+
 .end {
   padding: 20px;
 }
-/*Tablet*/
-@media screen and (max-width: 1180px) /*Phone*/ @media screen and (max-width: 640px) {
-  .real-easted-ads-container {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: start;
-    margin-right: 0;
-  }
 
-  .accommodation-in-marseille {
+/*Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .real-easted-ads-container {
+    position: relative;
+    flex: 1;
+    margin: calc(var(--app-spacing) / 2) 0;
     display: flex;
-    flex-direction: column;
+    gap: 30px;
+    width: 1350px;
+    height: 750px;
+  }
+  .accommodation-in-marseille {
+    flex: 1;
     background-color: var(--surfaces);
     border-radius: 20px;
     padding: 35px;
-    width: 414px;
-    margin-right: 0;
+  }
+}
+
+/*Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .real-easted-ads-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: calc(var(--app-spacing) / 2) 0;
+    gap: 30px;
+    width: 850px;
+  }
+  .accommodation-in-marseille {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 35px;
+    width: 70%;
   }
 
   .accommodation-container {
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    width: 680px;
   }
 
-  .most-popular-container {
-    display: flex;
-    flex-direction: column;
-    width: 375px;
+  .accommodation-card {
+    position: relative;
+    background-color: white;
+    border: 1px solid var(--surfaces);
+    box-shadow: 0 0 10px #f0f2f6;
+    border-radius: 20px;
+    height: 280px;
+    padding: 10px;
+  }
+  .accommodation-card img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
   }
 
-  .most .most-popular-card {
-    width: 100px;
-    height: 100px;
+  .beginning {
+    padding: 20px;
+  }
+
+  .end {
+    padding: 20px;
   }
 }
