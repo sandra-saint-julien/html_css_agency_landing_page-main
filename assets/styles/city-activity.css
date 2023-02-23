@@ -26,20 +26,61 @@
 }
 
 /*Tablet*/
-@media screen and (max-width: 1180px) /*Phone*/ @media screen and (max-width: 641px) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .activity-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  .activity-card {
+    display: flex;
     flex-direction: column;
-    gap: 30px;
-    width: 600px;
-    margin-left: 10px;
+    flex: 1;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #f0f2f6;
   }
 
   .activity-card img {
-    width: 100%;
+    width: 310px;
     object-fit: cover;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     flex: 1;
-    width: 600px;
+  }
+
+  .activity-card h3 {
+    margin: 25px 30px;
+  }
+}
+
+/*Phone*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .activity-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 30px;
+  }
+
+  .activity-card {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #f0f2f6;
+    width: 700px;
+  }
+
+  .activity-card img {
+    object-fit: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    flex: 1;
+  }
+
+  .activity-card h3 {
+    margin: 25px 30px;
   }
 }
