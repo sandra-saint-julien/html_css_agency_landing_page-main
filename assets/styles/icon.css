@@ -21,6 +21,18 @@
   margin-right: 220px;
 }
 
+.first {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
 .money {
   display: flex;
   flex-direction: row;
@@ -73,75 +85,85 @@
   gap: 25px;
 }
 
-/*Tablet*/
-@media screen and (max-width: 640px) {
-  .filter {
-    width: 640px;
-  }
-}
 /*Phone*/
-@media screen and (max-width: 640px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .filter {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: start;
     align-items: flex-start;
     margin-top: 30px;
-    margin-bottom: 70px;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: 640px;
-  }
-  .display {
-    display: grid;
-    grid-template-columns: 80px 80px;
-    gap: 110px;
-    padding: 10px;
-    grid-row-gap: 55px;
-    grid-template-rows: 10px;
-    justify-items: end;
-    margin-top: 55px;
-    margin-left: 10px;
   }
 
-  .difference {
+  .display {
     display: flex;
-    margin-bottom: 10px;
-    gap: 150px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
 
   .money {
-    padding: 12px;
-    margin: 0;
-    background: white;
-    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    background-color: white;
+    border: 2px solid var(--surfaces);
+    width: 230px;
     height: 55px;
+    gap: 20px;
   }
 
   .family {
-    padding: 12px;
-    margin: 0;
-    background: white;
-    margin: 0;
-    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    background-color: white;
+    border: 2px solid var(--surfaces);
+    width: 230px;
     height: 55px;
+    gap: 50px;
   }
 
   .heart {
-    padding: 12px;
-    margin: 0;
-    background: white;
-    margin: 0;
-    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    background-color: white;
+    border: 2px solid var(--surfaces);
+    width: 230px;
     height: 55px;
+    gap: 50px;
   }
 
   .animal {
-    padding: 12px;
-    margin: 0;
-    background: white;
-    margin: 0;
-    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 55px;
+    background-color: white;
+    border: 2px solid var(--surfaces);
+    width: 230px;
     height: 55px;
+    gap: 25px;
+  }
+  .difference {
+    margin-left: 30px;
   }
 }
