@@ -50,7 +50,6 @@
     flex-direction: column;
     flex: 1;
     background-color: var(--surfaces);
-    border-radius: 20px;
     gap: 20px;
     padding: 35px;
     width: 77%;
