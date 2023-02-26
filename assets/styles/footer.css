@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 955%;
+    width: 1205px;
   }
 
   #app-footer article {
@@ -38,13 +38,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 700px;
+    width: 1250px;
   }
 
   #app-footer article {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    gap: 10px;
+    width: 1150px;
+    gap: 30px;
   }
 }

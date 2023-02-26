@@ -81,17 +81,17 @@
   .accommodation-container {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    width: 680px;
+    gap: 120px;
+    width: 1190px;
   }
 
   .accommodation-card {
     position: relative;
     background-color: white;
-    border: 1px solid var(--surfaces);
-    box-shadow: 0 0 10px #f0f2f6;
+    border: 6px solid var(--surfaces);
+    box-shadow: 0 0 12px #f0f2f6;
     border-radius: 20px;
-    height: 280px;
+    height: 580px;
     padding: 10px;
   }
   .accommodation-card img {
@@ -99,7 +99,7 @@
     border-top-left-radius: 20px;
     width: 100%;
     object-fit: cover;
-    height: 150px;
+    height: 402px;
   }
 
   .beginning {

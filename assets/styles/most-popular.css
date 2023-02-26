@@ -52,7 +52,7 @@
     background-color: var(--surfaces);
     gap: 20px;
     padding: 35px;
-    width: 77%;
+    width: 1110px;
   }
 
   .most-popular-container header {
@@ -72,11 +72,11 @@
   }
 
   .most-popular-card img {
-    height: 150px;
-    width: 110px;
     object-fit: cover;
     border-top-left-radius: 18px;
     border-bottom-left-radius: 18px;
+    height: 250px;
+    width: 220px;
   }
 
   .most-popular-card h3 {

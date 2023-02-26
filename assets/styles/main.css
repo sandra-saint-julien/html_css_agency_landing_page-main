@@ -4,6 +4,7 @@
   --ternary: #d9d9d9;
   --surfaces: #f2f2f2;
   --app-spacing: 100px;
+  --border: grey;
 }
 
 body {
@@ -42,31 +43,74 @@ p {
 }
 
 .medium-text {
-  font-size: 16px;
+  font-size: 34px;
   font-weight: 700;
 }
 
 .large-text {
-  font-size: 22px;
+  font-size: 44px;
   font-weight: 700;
 }
 
 .normal-text {
-  font-size: 19px;
+  font-size: 28px;
   font-weight: 100;
 }
 
 /*Phone*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  html,
   body {
     font-family: "Raleway", sans-serif;
-    font-size: 16px;
+    font-size: 42px;
     font-weight: 400;
-    margin: 0px;
   }
+
+  .body-main {
+    width: 1010px;
+  }
+
   .container {
     max-width: 1440px;
-    padding: 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+    font-size: 40px;
+  }
+
+  .fa-star,
+  .fa-chart-line,
+  .fa-solid,
+  .fa-light {
+    color: blue;
+    width: 40x;
+    height: 40px;
+  }
+  .fa-solid {
+    font-size: 28px;
+  }
+  .start-disabled {
+    color: var(--surfaces);
+  }
+
+  .medium-text {
+    font-size: 44px;
+    font-weight: 700;
+  }
+
+  .large-text {
+    font-size: 54px;
+    font-weight: 700;
+  }
+
+  .normal-text {
+    font-size: 38px;
+    font-weight: 100;
   }
 }
