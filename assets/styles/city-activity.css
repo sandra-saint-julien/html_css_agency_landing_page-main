@@ -29,9 +29,14 @@
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .activity-container {
     display: flex;
-    flex-direction: row;
-    gap: 80px;
+    gap: 90px;
     margin-top: 30px;
+    width: 2px;
+    align-items: stretch;
+    flex-direction: row;
+  }
+  .in-marseille {
+    margin-top: 880px;
   }
 
   .activity-card {
@@ -40,17 +45,15 @@
     flex: 1;
     border-radius: 20px;
     box-shadow: 0 0 15px #c4c8d3;
-    width: 1210px;
+    width: 850px;
     gap: 45px;
   }
 
   .activity-card img {
-    width: 1210px;
-    height: 123px;
-    object-fit: cover;
+    width: 265px;
+    height: 25px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    flex: 1;
   }
 
   .activity-card h3 {

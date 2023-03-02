@@ -43,6 +43,33 @@
   padding-right: 20px;
 }
 
+/*Tablet*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .most-popular-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 1265px;
+    flex-wrap: wrap;
+  }
+  .most-popular-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 110px;
+    flex-wrap: wrap;
+    width: 250px;
+  }
+}
+
+.most-popular-container header {
+  position: relative;
+}
+
+.most-popular-card img {
+  width: 250px;
+  height: 310px;
+}
+
 /*Phone*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .most-popular-container {
