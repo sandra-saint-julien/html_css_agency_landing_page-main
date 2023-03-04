@@ -218,7 +218,7 @@
     border-radius: 55px;
     background-color: white;
     border: 2px solid var(--border);
-    width: 512px;
+    width: 350px;
     height: 75px;
     gap: 20px;
     margin-right: 10px;
@@ -232,7 +232,7 @@
     border-radius: 55px;
     background-color: white;
     border: 2px solid var(--border);
-    width: 512px;
+    width: 350px;
     height: 75px;
     gap: 50px;
   }
@@ -245,7 +245,7 @@
     border-radius: 55px;
     background-color: white;
     border: 2px solid var(--border);
-    width: 520px;
+    width: 420px;
     height: 72px;
     gap: 50px;
   }
@@ -258,8 +258,8 @@
     border-radius: 55px;
     background-color: white;
     border: 2px solid var(--border);
-    width: 520px;
-    height: 72px;
+    width: 420px;
+    height: 122px;
     gap: 25px;
   }
 

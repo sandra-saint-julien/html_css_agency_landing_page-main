@@ -37,14 +37,16 @@
   #app-footer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 1250px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 900px;
   }
 
   #app-footer article {
     display: flex;
     flex-direction: column;
-    width: 1150px;
+    align-items: stretch;
+    gap: 30px;
     gap: 30px;
   }
 }

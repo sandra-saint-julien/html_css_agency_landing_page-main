@@ -32,7 +32,7 @@
     gap: 90px;
     margin-top: 30px;
     width: 2px;
-    align-items: stretch;
+    alipxgpxn-items: stretch;
     flex-direction: row;
   }
   .in-marseille {
@@ -50,7 +50,7 @@
   }
 
   .activity-card img {
-    width: 275px;
+    width: 265px;
     height: 25px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
@@ -76,14 +76,13 @@
     flex: 1;
     border-radius: 20px;
     box-shadow: 0 0 10px #f0f2f6;
-    width: 1200px;
+    width: 950px;
   }
 
   .activity-card img {
-    object-fit: cover;
+    width: 950px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    flex: 1;
   }
 
   .activity-card h3 {

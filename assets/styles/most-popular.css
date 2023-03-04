@@ -95,11 +95,11 @@
   .most-popular-container {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    justify-content: flex-end;
     background-color: var(--surfaces);
-    gap: 20px;
-    padding: 35px;
-    width: 1110px;
+    gap: 23px;
+    padding: 22px;
+    width: 100%;
   }
 
   .most-popular-container header {
