@@ -71,16 +71,16 @@
   }
 
   .activity-card {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+    position: relative;
     border-radius: 20px;
     box-shadow: 0 0 10px #f0f2f6;
+    height: 580px;
+    padding: 10px;
     width: 950px;
   }
 
   .activity-card img {
-    width: 950px;
+    width: 1200px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
   }
