@@ -46,6 +46,10 @@
   gap: 20px;
 }
 
+.money:hover {
+  background-color: #deebff;
+}
+
 .family {
   display: flex;
   flex-direction: row;
@@ -58,7 +62,9 @@
   height: 55px;
   gap: 10px;
 }
-
+.family:hover {
+  background-color: #deebff;
+}
 .heart {
   display: flex;
   flex-direction: row;
@@ -71,20 +77,24 @@
   height: 55px;
   gap: 20px;
 }
-
+.heart:hover {
+  background-color: #deebff;
+}
 .animal {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   border-radius: 55px;
-  background-color: #deebff;
+  background-color: white;
   border: 2px solid var(--surfaces);
   width: 450px;
   height: 55px;
   gap: 25px;
 }
-
+.animal:hover {
+  background-color: #deebff;
+}
 /*Tablet*/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .filter {
