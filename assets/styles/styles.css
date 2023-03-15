@@ -393,9 +393,166 @@ p {
   gap: 230px;
 }
 
+/*tablette*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 1440px) {
+  /* body main */
+  body {
+    display: flex;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 50px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0.5rem 0;
+  }
+
+  .fa-star,
+  .fa-chart-line,
+  .fa-solid,
+  .fa-light {
+    color: blue;
+  }
+
+  .fa-solid {
+    font-size: x-large;
+  }
+
+  .start-disabled {
+    color: var(--surfaces);
+  }
+
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 60px;
+  }
+
+  .medium-text {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .large-text {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .normal-text {
+    font-size: 18px;
+    font-weight: 100;
+  }
+
+  /* nav bar */
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+  }
+
+  #navbar section {
+    display: flex;
+    height: 100px;
+  }
+
+  #navbar img {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .nav-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    height: 100px;
+    width: 200px;
+    transition: all 300ms ease-in-out;
+    background-color: transparent;
+    border-top: 2px solid #f2f2f2;
+  }
+
+  .nav-button:focus {
+    color: #0065fc;
+    border-top: 2px solid #0065fc;
+  }
+
+  /* texte du début */
+  .text-beginning {
+    padding: 30px;
+    margin-top: 70px;
+  }
+
+  /* barre de recherche */
+  .button-search {
+    margin-top: 30px;
+    display: flex;
+    height: 65px;
+    margin-bottom: 50px;
+  }
+
+  .position {
+    width: 70px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid #d9d9d9;
+  }
+
+  .button-search h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #d9d9d9;
+    width: 500px;
+    margin-top: initial;
+    margin-bottom: initial;
+  }
+
+  .search {
+    width: 180px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid #d9d9d9;
+    background-color: #0065fc;
+    color: white;
+  }
+
+  /* filtres et icônes */
+  .display {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 180px;
+  }
+  .first {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    width: 190px;
+    margin-top: 25px;
+  }
+  .choice {
+    margin-right: 550px;
+  }
+
+  .second {
+  }
+}
+
 /*Phone*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* main boddy */
+  /* main body */
   body {
     margin-right: 0;
     margin-left: 0;
