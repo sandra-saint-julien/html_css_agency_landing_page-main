@@ -129,7 +129,18 @@
   }
 
   .filters button {
-    padding: 5px 15px;
+    width: 150px;
+  }
+  .filter-one {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .filter-two {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
   }
 
   /* informations */
