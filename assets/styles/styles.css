@@ -149,13 +149,13 @@ p {
 
 .filter-one {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 15px;
 }
 
 .filter-two {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 15px;
 }
 .filters {
