@@ -1,0 +1,113 @@
+/* tablet */
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .medium-text {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  /* barre de recherche */
+  .button-search {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .position {
+    width: 60px;
+  }
+
+  .button-search h3 {
+    width: 200px;
+  }
+
+  .search {
+    width: 130px;
+  }
+
+  .search-mobile {
+    display: none;
+  }
+
+  .most-popular-card {
+    gap: 10px;
+  }
+
+  .most-popular-card h3 {
+    font-size: 16px;
+  }
+
+  .most-popular-card-box {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 15px;
+  }
+
+  /* filtres et icônes */
+  .display {
+    margin-left: 150px;
+  }
+
+  .first {
+    width: 150px;
+    margin-top: 20px;
+  }
+
+  .filters {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .filter-container {
+    gap: 10px;
+  }
+
+  /* informations */
+  .description {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  /* hebergements à Marseille */
+  .real-easted-ads-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .accommodation-in-marseille {
+    padding: 25px;
+  }
+
+  .most-popular-container {
+    padding: 25px;
+  }
+
+  .most-popular-card img {
+    width: 60px !important;
+  }
+
+  /* footer */
+  #app-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  #app-footer article {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .activity-card {
+    height: 330px;
+  }
+
+  .activity-container {
+    gap: 20px;
+  }
+
+  .activity-card h3 {
+    height: 40px;
+  }
+}

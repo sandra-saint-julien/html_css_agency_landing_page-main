@@ -1,4 +1,4 @@
-*/Deskop*/
+*/Desktop*/
 
 /* body main */
 body {
@@ -6,7 +6,6 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  margin-left: 50px;
 }
 
 h1,
@@ -31,9 +30,9 @@ p {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1340px;
   margin: 0 auto;
-  padding: 0 60px;
+  padding: 0 30px;
 }
 
 .medium-text {
@@ -47,7 +46,7 @@ p {
 }
 
 .normal-text {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 100;
 }
 /* nav bar */
@@ -99,7 +98,7 @@ p {
 .button-search {
   margin-top: 30px;
   display: flex;
-  height: 65px;
+  height: 49px;
   margin-bottom: 50px;
 }
 
@@ -130,6 +129,10 @@ p {
   border: none;
 }
 
+.search-mobile {
+  display: none;
+}
+
 /* filtres et icônes */
 
 .display {
@@ -147,17 +150,12 @@ p {
   margin-top: 25px;
 }
 
-.filter-one {
+.filter-container {
   display: flex;
   flex-direction: row;
   gap: 15px;
 }
 
-.filter-two {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-}
 .filters {
   display: flex;
   align-items: center;
@@ -168,7 +166,7 @@ p {
   border-radius: 50px;
   border: 2px solid #d9d9d9;
   background-color: white;
-  padding: 8px 25px;
+  padding: 12px 20px;
   display: flex;
   gap: 8px;
   align-items: center;
@@ -202,9 +200,7 @@ p {
 /* hebergements à Marseille */
 
 .real-easted-ads-container {
-  position: relative;
   display: flex;
-  align-content: stretch;
   gap: 30px;
 }
 
@@ -224,9 +220,12 @@ p {
   position: relative;
   background-color: white;
   border-radius: 20px;
-
   padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .accommodation-card img {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
@@ -235,10 +234,11 @@ p {
   height: 150px;
 }
 .beginning {
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
+
 .end {
-  padding: 20px;
+  padding: 20px 20px 0 20px;
 }
 
 /* les plus populaires */
@@ -247,19 +247,21 @@ p {
   background-color: #f2f2f2;
   border-radius: 20px;
   padding: 35px;
-}
-
-.most-popular-card-box {
+  position: relative;
   display: flex;
   flex-direction: column;
-  height: 100%;
-  gap: 15px;
 }
 
 .most-popular-container header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+}
+
+.most-popular-card-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .most-popular-card {
@@ -270,12 +272,15 @@ p {
   gap: 30px;
   height: 156px;
   margin-bottom: 5px;
+  flex: 1;
 }
 
 .most-popular-card img {
   border-top-left-radius: 18px;
   border-bottom-left-radius: 18px;
   width: 200px;
+  height: 161px;
+  object-fit: cover;
 }
 
 .most-popular-card h3 {
@@ -286,8 +291,8 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding-right: 20px;
 }
+
 .vector {
   display: flex;
   flex-direction: row;
@@ -303,28 +308,33 @@ p {
 .activity-container {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 30px;
   margin-top: 30px;
 }
 
 .activity-card {
   display: flex;
+  height: 430px;
   flex-direction: column;
   flex: 1;
   border-radius: 20px;
-  box-shadow: 0 0 10px #f0f2f6;
+  box-shadow: 0 0 15px #d5d7da;
 }
 
 .activity-card img {
   width: 100%;
+  height: 100px;
   object-fit: cover;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   flex: 1;
+  margin-bottom: 15px;
 }
 
 .activity-card h3 {
-  margin: 25px 30px;
+  margin: 0 20px;
+  height: 50px;
+  margin-bottom: 15px;
 }
 
 /* footer */
@@ -341,20 +351,18 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
-  gap: 230px;
+  width: 100%;
 }
-.about {
+
+.footer-card {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  white-space: nowrap;
 }
-.hostel {
+
+.centered-flex {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.help {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
