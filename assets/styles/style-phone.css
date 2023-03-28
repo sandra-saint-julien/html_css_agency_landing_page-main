@@ -127,5 +127,7 @@
   .activity-card {
     height: 100px;
     object-fit: cover;
+    flex: auto;
+    height: 300px;
   }
 }
