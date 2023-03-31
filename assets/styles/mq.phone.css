@@ -1,0 +1,135 @@
+Écran @media et ( max-width :  767 px ) {
+  . principal ,
+  corps ,
+  . populaire ,
+  . hébergement ,
+  . carte-d'hébergement ,
+  . en-tête {
+    rembourrage :  0 px ;
+  }
+  /*Entête*/
+  . en-tête {
+    flex-direction : colonne ;
+    marge-haut :  25 px ;
+    hauteur :  90 px ;
+  }
+  . en-tête-img {
+    affichage : flexible ;
+    justifier-contenu : center;
+  }
+  . en-tête-nav {
+    largeur :  100 % ;
+    hauteur :  40 px ;
+    marge-bas :  10 px ;
+  }
+  . header-nav-option {
+    bordure inférieure : solide 3 px  # f2f2f2 ;
+    rembourrage bas :  4 % ;
+  }
+  . header-nav-option : hover {
+    rembourrage bas :  4 % ;
+    bordure inférieure : solide 3 px  # 0065fc ;
+    couleur :  # 0065fc ;
+    border-top : aucun;
+  }
+  . header-nav-option  a : hover {
+    couleur :  # 0065fc ;
+    border-top : aucun;
+  }
+  /*Recherche*/
+  . rechercher {
+    rembourrage :  0  15 px  0  15 px ;
+  }
+  . formulaire de recherche {
+    largeur :  100 % ;
+    marge :  10 px  0  10 px  0 ;
+  }
+  . bouton-formulaire-de-recherche {
+    affichage : aucun ;
+  }
+  . icône du bouton du formulaire de recherche {
+    affichage : en ligne ;
+    couleur de fond :  # 0065fc ;
+    couleur : blanc;
+    taille de police :  0,9 em ;
+    font-weight :  700 ;
+    bordure : aucune ;
+    rembourrage :  0  25 px  0  25 px ;
+    rayon de bordure :  0  15 px  15 px  0 ;
+  }
+  . icône du bouton du formulaire de recherche : survolez {
+    curseur : pointeur;
+  }
+  . filtres-de-recherche {
+    flex-direction : colonne ;
+  }
+  . conteneur de filtre de recherche {
+    flex-wrap : envelopper;
+    justifier-contenu : espace-entre;
+    largeur :  100 % ;
+    marge :  5 px  0  0  0 ;
+  }
+  . filtres-de-recherche-filtre {
+    largeur min :  44 % ;
+    largeur max :  44 % ;
+    marge :  17 px  20 px  0  0 ;
+    taille de police :  0,8 em ;
+    rembourrage gauche :  20 px ;
+  }
+  /*Cards-Bloc-Container contient Hosting + Popular */
+  . cartes-bloc-conteneur {
+    flex-direction : colonne-inverse ;
+  }
+  /*Hébergement*/
+  . hébergement {
+    hauteur :  1280 px ;
+    couleur de fond : blanc ;
+    largeur max :  100 % ;
+  }
+  . bloc-hébergement ,
+  . bloc-populaire ,
+  . bloc-activité {
+    flex-direction : colonne ;
+    justifier-contenu : center;
+    rembourrage :  0  15 px  0  15 px ;
+    marge :  0 ;
+    largeur max :  768 px ;
+  }
+  . carte-d'hébergement {
+    largeur :  100 % ;
+    hauteur :  180 px ;
+    marge :  0  0  15 px  0 ;
+  }
+  . lien de pied de page d'hébergement {
+    affichage : aucun ;
+  }
+  /*Populaire*/
+  . populaire {
+    rayon de bordure :  0 px ;
+    hauteur : fit-contenu ;
+    largeur max :  100 % ;
+  }
+  . carte-populaire {
+    largeur max :  100 % ;
+  }
+  /*Activité*/
+  . activité {
+    hauteur : fit-contenu ;
+  }
+  . carte-d'activité {
+    largeur :  100 % ;
+    hauteur :  190 px ;
+    marge :  0  0  15 px  0 ;
+  }
+  . fiche-activité-img {
+    hauteur :  150 px ;
+  }
+  /*Bas de page*/
+  . pied de page {
+    flex-direction : colonne ;
+    marge :  0 px ;
+    rembourrage gauche :  25 px ;
+    hauteur de ligne :  10 px ;
+  }
+}
+
